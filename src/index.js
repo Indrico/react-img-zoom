@@ -18,12 +18,14 @@ class Zoom extends Component {
       img,
       transitionTime,
       width,
+      style
     } = props
 
     this.outerDivStyle = {
       height: `${height}px`,
       width: `${width}px`,
       overflow: 'hidden',
+      ...style
     }
 
     this.innerDivStyle = {
