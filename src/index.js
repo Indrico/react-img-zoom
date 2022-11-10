@@ -127,7 +127,7 @@ Zoom.propTypes = {
   width: PropTypes.number.isRequired,
   /** The time (in seconds) that will take to scale your image. */
   transitionTime: PropTypes.number,
-  style: PropTypes.objectOf(PropTypes.object()),
+  style: PropTypes.objectOf(PropTypes.object),
 }
 
 Zoom.defaultProps = {
