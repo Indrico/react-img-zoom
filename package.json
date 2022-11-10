@@ -1,7 +1,7 @@
 {
-  "name": "indrico-react-img-zoom",
+  "name": "react-img-hover-zoom",
   "main": "dist/index.js",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "author": "Leonardo Felipe Nerone <leonardofelipenerone@gmail.com>",
   "description": "A Fork from https://github.com/LeoNero/react-img-zoom (react-img-zoom)",
   "homepage": "https://github.com/indrico/react-img-zoom",
