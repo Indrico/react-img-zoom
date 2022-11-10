@@ -18,6 +18,7 @@ class Zoom extends Component {
       img,
       transitionTime,
       width,
+      // eslint-disable-next-line react/prop-types
       style,
     } = props
 
@@ -127,12 +128,10 @@ Zoom.propTypes = {
   width: PropTypes.number.isRequired,
   /** The time (in seconds) that will take to scale your image. */
   transitionTime: PropTypes.number,
-  style: PropTypes.objectOf(PropTypes.object),
 }
 
 Zoom.defaultProps = {
   transitionTime: 0.1,
-  style: {},
 }
 
 export default Zoom
