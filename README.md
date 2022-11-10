@@ -9,7 +9,7 @@ A react component to zoom images on hover
 
 ## Installation
 ```
-npm install react-img-zoom
+npm install indrico-react-img-zoom
 ```
 
 ## Basic usage
@@ -23,6 +23,7 @@ import Zoom from 'react-img-zoom'
   zoomScale={3}
   width={600}
   height={600}
+  style={}
 />
 ```
 
