@@ -32,7 +32,7 @@ class Zoom extends Component {
       height: `${height}px`,
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
-      backgroundSize: 'auto 100%',
+      backgroundSize: 'contain',
       transition: `transform ${transitionTime}s ease-out`,
       backgroundImage: `url('${img}')`,
     }
