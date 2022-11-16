@@ -19,6 +19,7 @@ class Zoom extends Component {
       transitionTime,
       width,
       style,
+      className,
     } = props
 
     this.outerDivStyle = {
@@ -36,6 +37,8 @@ class Zoom extends Component {
       transition: `transform ${transitionTime}s ease-out`,
       backgroundImage: `url('${img}')`,
     }
+
+    this.className = className
 
     this.imageRef = createRef()
 
@@ -97,6 +100,7 @@ class Zoom extends Component {
 
     return (
       <div
+        className={this.className}
         style={this.outerDivStyle}
         onMouseOver={this.handleMouseOver}
         onMouseOut={this.handleMouseOut}
@@ -128,6 +132,7 @@ Zoom.propTypes = {
   /** The time (in seconds) that will take to scale your image. */
   transitionTime: PropTypes.number,
   style: PropTypes.oneOfType([PropTypes.object]).isRequired,
+  className: PropTypes.oneOfType([PropTypes.object]).isRequired,
 }
 
 Zoom.defaultProps = {
