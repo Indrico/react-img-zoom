@@ -24,6 +24,7 @@ import Zoom from 'react-img-zoom'
   width={600}
   height={600}
   style={}
+  className=""
 />
 ```
 

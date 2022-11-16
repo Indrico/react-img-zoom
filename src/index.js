@@ -132,11 +132,12 @@ Zoom.propTypes = {
   /** The time (in seconds) that will take to scale your image. */
   transitionTime: PropTypes.number,
   style: PropTypes.oneOfType([PropTypes.object]).isRequired,
-  className: PropTypes.oneOfType([PropTypes.object]).isRequired,
+  className: PropTypes.string,
 }
 
 Zoom.defaultProps = {
   transitionTime: 0.1,
+  className: '',
 }
 
 export default Zoom
