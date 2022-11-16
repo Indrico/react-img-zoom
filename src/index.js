@@ -30,7 +30,7 @@ class Zoom extends Component {
     }
 
     this.innerDivStyle = {
-      height: `${height}px`,
+      height: '100%',
       backgroundRepeat: 'no-repeat',
       backgroundPosition: 'center',
       backgroundSize: 'contain',
