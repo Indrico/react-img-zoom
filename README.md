@@ -9,7 +9,7 @@ A react component to zoom images on hover
 
 ## Installation
 ```
-npm install indrico-react-img-zoom
+npm install react-img-hover-zoom
 ```
 
 ## Basic usage
